@@ -18,10 +18,9 @@ Pod::Spec.new do |s|
   s.ios.frameworks = 'QuartzCore', 'AssetsLibrary', 'MessageUI', 'Twitter'
   s.ios.weak_frameworks = 'Social'
 
-  s.dependency 'AFNetworking', '~> 1.3'
-  # s.dependency 'FBSDKCoreKit', '>= 4.6'
-  # s.dependency 'DEFacebookComposeViewController', '~> 1.0.0'
-  # s.dependency 'DEFacebookComposeViewController', :git => 'https://github.com/hoangtuanfithou/FacebookSample.git', :branch => 'master'
+  s.dependency 'AFNetworking', '~> 2.6'
+  s.dependency 'Facebook-iOS-SDK', '>= 3.5'
+  s.dependency 'DEFacebookComposeViewController', '~> 1.0.0'
   s.dependency 'REComposeViewController', '~> 2.1.2'
   s.dependency 'SFHFKeychainUtils', '~> 0.0.1'
   s.dependency 'PocketAPI', '~> 1.0.2'
